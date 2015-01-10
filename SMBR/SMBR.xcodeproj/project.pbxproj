@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA48C8B01A61298700AAB0EF /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA48C8AF1A61298700AAB0EF /* GameKit.framework */; };
+		CA48C8B21A61298E00AAB0EF /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA48C8B11A61298E00AAB0EF /* SpriteKit.framework */; };
 		CA8304451A61238800B1A553 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8304441A61238800B1A553 /* main.m */; };
 		CA8304481A61238800B1A553 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8304471A61238800B1A553 /* AppDelegate.m */; };
 		CA83044B1A61238800B1A553 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA83044A1A61238800B1A553 /* ViewController.m */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA48C8AF1A61298700AAB0EF /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		CA48C8B11A61298E00AAB0EF /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
 		CA83043F1A61238800B1A553 /* SMBR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMBR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA8304431A61238800B1A553 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA8304441A61238800B1A553 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -44,6 +48,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA48C8B21A61298E00AAB0EF /* SpriteKit.framework in Frameworks */,
+				CA48C8B01A61298700AAB0EF /* GameKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +63,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CA48C8B31A61299A00AAB0EF /* Resouces */ = {
+			isa = PBXGroup;
+			children = (
+				CA8304431A61238800B1A553 /* Info.plist */,
+				CA8304441A61238800B1A553 /* main.m */,
+				CA83044C1A61238800B1A553 /* Main.storyboard */,
+				CA83044F1A61238800B1A553 /* Images.xcassets */,
+				CA8304511A61238800B1A553 /* LaunchScreen.xib */,
+			);
+			name = Resouces;
+			sourceTree = "<group>";
+		};
+		CA48C8B41A6129B400AAB0EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA48C8B11A61298E00AAB0EF /* SpriteKit.framework */,
+				CA48C8AF1A61298700AAB0EF /* GameKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CA8304361A61238800B1A553 = {
 			isa = PBXGroup;
 			children = (
@@ -88,11 +115,8 @@
 		CA8304421A61238800B1A553 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				CA83044C1A61238800B1A553 /* Main.storyboard */,
-				CA83044F1A61238800B1A553 /* Images.xcassets */,
-				CA8304511A61238800B1A553 /* LaunchScreen.xib */,
-				CA8304431A61238800B1A553 /* Info.plist */,
-				CA8304441A61238800B1A553 /* main.m */,
+				CA48C8B41A6129B400AAB0EF /* Frameworks */,
+				CA48C8B31A61299A00AAB0EF /* Resouces */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -416,6 +440,7 @@
 				CA8304641A61238800B1A553 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA8304651A61238800B1A553 /* Build configuration list for PBXNativeTarget "SMBRTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +449,7 @@
 				CA8304671A61238800B1A553 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

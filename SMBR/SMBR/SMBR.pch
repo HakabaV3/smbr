@@ -1,0 +1,24 @@
+//
+//  SMBR.pch
+//  SMBR
+//
+//  Created by sho on 2015/01/12.
+//  Copyright (c) 2015年 HakabaV3. All rights reserved.
+//
+
+#ifndef SMBR_SMBR_pch
+#define SMBR_SMBR_pch
+
+// Logger
+#ifdef LOGGER
+# define LOG(...)            NSLog(@"%@", [NSString stringWithFormat:@"%s %@", __PRETTY_FUNCTION__, [NSString stringWithFormat:__VA_ARGS__]])
+# define LOG_METHOD          NSLog(@"%s", __PRETTY_FUNCTION__)
+#else
+# define LOG(...)
+# define LOG_METHOD
+#endif
+
+#import <SpriteKit/SpriteKit.h>
+#import <GameKit/GameKit.h>
+
+#endif

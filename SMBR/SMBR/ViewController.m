@@ -8,20 +8,36 @@
 
 #import "ViewController.h"
 
+#import "GameScene.h"
+
 @interface ViewController ()
+
+@property (nonatomic, strong) GameScene *scene;
 
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+- (void)loadView {
+    CGRect applicationFrame = [[UIScreen mainScreen] applicationFrame];
+    SKView *skView = [[SKView alloc] initWithFrame:applicationFrame];
+    self.view = skView;
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    [self setGameScene];
+}
+
+- (void)setGameScene {
+    SKView * skView = (SKView *)self.view;
+    skView.showsFPS = YES;
+    skView.showsNodeCount = YES;
+    skView.ignoresSiblingOrder = YES;
+    
+    self.scene = [[GameScene alloc] initWithSize:self.view.bounds.size];
+    self.scene.scaleMode = SKSceneScaleModeAspectFit;
+    [skView presentScene:self.scene];
 }
 
 @end

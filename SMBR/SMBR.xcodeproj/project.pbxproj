@@ -7,40 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA1B186D1A63B3D10083A554 /* ControlableScene.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1B186C1A63B3D10083A554 /* ControlableScene.m */; };
+		CA1B18701A63BC0D0083A554 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1B186F1A63BC0D0083A554 /* GameScene.m */; };
+		CA1B18721A63C0170083A554 /* PointUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1B18711A63C0170083A554 /* PointUtil.m */; };
 		CA48C8B01A61298700AAB0EF /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA48C8AF1A61298700AAB0EF /* GameKit.framework */; };
 		CA48C8B21A61298E00AAB0EF /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA48C8B11A61298E00AAB0EF /* SpriteKit.framework */; };
 		CA8304451A61238800B1A553 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8304441A61238800B1A553 /* main.m */; };
 		CA8304481A61238800B1A553 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8304471A61238800B1A553 /* AppDelegate.m */; };
 		CA83044B1A61238800B1A553 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA83044A1A61238800B1A553 /* ViewController.m */; };
-		CA83044E1A61238800B1A553 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA83044C1A61238800B1A553 /* Main.storyboard */; };
-		CA8304501A61238800B1A553 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA83044F1A61238800B1A553 /* Images.xcassets */; };
-		CA8304531A61238800B1A553 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA8304511A61238800B1A553 /* LaunchScreen.xib */; };
+		CA8F1A671A63C45E000590F2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA8F1A621A63C45E000590F2 /* LaunchScreen.xib */; };
+		CA8F1A681A63C45E000590F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA8F1A641A63C45E000590F2 /* Main.storyboard */; };
+		CA8F1A691A63C45E000590F2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA8F1A661A63C45E000590F2 /* Images.xcassets */; };
+		CA8F1A6B1A63C46B000590F2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CA8F1A6A1A63C46B000590F2 /* Info.plist */; };
+		CA8F1A6D1A63C479000590F2 /* stick_human.png in Resources */ = {isa = PBXBuildFile; fileRef = CA8F1A6C1A63C479000590F2 /* stick_human.png */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		CA8304591A61238800B1A553 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CA8304371A61238800B1A553 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CA83043E1A61238800B1A553;
-			remoteInfo = SMBR;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		CA1B18691A63B29C0083A554 /* SMBR.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMBR.pch; sourceTree = "<group>"; };
+		CA1B186B1A63B3D10083A554 /* ControlableScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlableScene.h; sourceTree = "<group>"; };
+		CA1B186C1A63B3D10083A554 /* ControlableScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControlableScene.m; sourceTree = "<group>"; };
+		CA1B186E1A63BC0D0083A554 /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		CA1B186F1A63BC0D0083A554 /* GameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		CA1B18711A63C0170083A554 /* PointUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointUtil.m; sourceTree = "<group>"; };
+		CA1B18731A63C22C0083A554 /* PointUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PointUtil.h; sourceTree = "<group>"; };
 		CA48C8AF1A61298700AAB0EF /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 		CA48C8B11A61298E00AAB0EF /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
 		CA83043F1A61238800B1A553 /* SMBR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMBR.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA8304431A61238800B1A553 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA8304441A61238800B1A553 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CA8304461A61238800B1A553 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CA8304471A61238800B1A553 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CA8304491A61238800B1A553 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CA83044A1A61238800B1A553 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		CA83044D1A61238800B1A553 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CA83044F1A61238800B1A553 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		CA8304521A61238800B1A553 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		CA8304581A61238800B1A553 /* SMBRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMBRTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA8F1A631A63C45E000590F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		CA8F1A651A63C45E000590F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		CA8F1A661A63C45E000590F2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Resources/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		CA8F1A6A1A63C46B000590F2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resources/Info.plist; sourceTree = SOURCE_ROOT; };
+		CA8F1A6C1A63C479000590F2 /* stick_human.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = stick_human.png; path = Resources/images/stick_human.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,24 +55,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CA8304551A61238800B1A553 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CA1B18681A63B2490083A554 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CA1B186E1A63BC0D0083A554 /* GameScene.h */,
+				CA1B186F1A63BC0D0083A554 /* GameScene.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CA1B186A1A63B3500083A554 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				CA1B186B1A63B3D10083A554 /* ControlableScene.h */,
+				CA1B186C1A63B3D10083A554 /* ControlableScene.m */,
+				CA1B18731A63C22C0083A554 /* PointUtil.h */,
+				CA1B18711A63C0170083A554 /* PointUtil.m */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		CA1B187A1A63C3170083A554 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				CA8F1A6C1A63C479000590F2 /* stick_human.png */,
+			);
+			name = images;
+			path = ../../Resources/images;
+			sourceTree = "<group>";
+		};
 		CA48C8B31A61299A00AAB0EF /* Resouces */ = {
 			isa = PBXGroup;
 			children = (
-				CA8304431A61238800B1A553 /* Info.plist */,
-				CA8304441A61238800B1A553 /* main.m */,
-				CA83044C1A61238800B1A553 /* Main.storyboard */,
-				CA83044F1A61238800B1A553 /* Images.xcassets */,
-				CA8304511A61238800B1A553 /* LaunchScreen.xib */,
+				CA1B187A1A63C3170083A554 /* images */,
+				CA8F1A611A63C45E000590F2 /* Base.lproj */,
+				CA8F1A6A1A63C46B000590F2 /* Info.plist */,
+				CA8F1A661A63C45E000590F2 /* Images.xcassets */,
 			);
 			name = Resouces;
 			sourceTree = "<group>";
@@ -96,7 +119,6 @@
 			isa = PBXGroup;
 			children = (
 				CA83043F1A61238800B1A553 /* SMBR.app */,
-				CA8304581A61238800B1A553 /* SMBRTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,8 +127,10 @@
 			isa = PBXGroup;
 			children = (
 				CA83046B1A6123A900B1A553 /* Application */,
-				CA83046A1A61239C00B1A553 /* ViewController */,
 				CA8304681A61239100B1A553 /* Model */,
+				CA1B18681A63B2490083A554 /* View */,
+				CA83046A1A61239C00B1A553 /* Controller */,
+				CA1B186A1A63B3500083A554 /* Util */,
 				CA8304421A61238800B1A553 /* Supporting Files */,
 			);
 			path = SMBR;
@@ -128,23 +152,35 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
-		CA83046A1A61239C00B1A553 /* ViewController */ = {
+		CA83046A1A61239C00B1A553 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 				CA8304491A61238800B1A553 /* ViewController.h */,
 				CA83044A1A61238800B1A553 /* ViewController.m */,
 			);
-			name = ViewController;
+			name = Controller;
 			sourceTree = "<group>";
 		};
 		CA83046B1A6123A900B1A553 /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				CA1B18691A63B29C0083A554 /* SMBR.pch */,
+				CA8304441A61238800B1A553 /* main.m */,
 				CA8304461A61238800B1A553 /* AppDelegate.h */,
 				CA8304471A61238800B1A553 /* AppDelegate.m */,
 			);
 			name = Application;
 			sourceTree = "<group>";
+		};
+		CA8F1A611A63C45E000590F2 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				CA8F1A621A63C45E000590F2 /* LaunchScreen.xib */,
+				CA8F1A641A63C45E000590F2 /* Main.storyboard */,
+			);
+			name = Base.lproj;
+			path = Resources/Base.lproj;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -166,24 +202,6 @@
 			productReference = CA83043F1A61238800B1A553 /* SMBR.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CA8304571A61238800B1A553 /* SMBRTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CA8304651A61238800B1A553 /* Build configuration list for PBXNativeTarget "SMBRTests" */;
-			buildPhases = (
-				CA8304541A61238800B1A553 /* Sources */,
-				CA8304551A61238800B1A553 /* Frameworks */,
-				CA8304561A61238800B1A553 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CA83045A1A61238800B1A553 /* PBXTargetDependency */,
-			);
-			name = SMBRTests;
-			productName = SMBRTests;
-			productReference = CA8304581A61238800B1A553 /* SMBRTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,10 +213,6 @@
 				TargetAttributes = {
 					CA83043E1A61238800B1A553 = {
 						CreatedOnToolsVersion = 6.1.1;
-					};
-					CA8304571A61238800B1A553 = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = CA83043E1A61238800B1A553;
 					};
 				};
 			};
@@ -216,7 +230,6 @@
 			projectRoot = "";
 			targets = (
 				CA83043E1A61238800B1A553 /* SMBR */,
-				CA8304571A61238800B1A553 /* SMBRTests */,
 			);
 		};
 /* End PBXProject section */
@@ -226,16 +239,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA83044E1A61238800B1A553 /* Main.storyboard in Resources */,
-				CA8304531A61238800B1A553 /* LaunchScreen.xib in Resources */,
-				CA8304501A61238800B1A553 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CA8304561A61238800B1A553 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				CA8F1A681A63C45E000590F2 /* Main.storyboard in Resources */,
+				CA8F1A691A63C45E000590F2 /* Images.xcassets in Resources */,
+				CA8F1A671A63C45E000590F2 /* LaunchScreen.xib in Resources */,
+				CA8F1A6D1A63C479000590F2 /* stick_human.png in Resources */,
+				CA8F1A6B1A63C46B000590F2 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,44 +254,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA1B186D1A63B3D10083A554 /* ControlableScene.m in Sources */,
 				CA83044B1A61238800B1A553 /* ViewController.m in Sources */,
+				CA1B18721A63C0170083A554 /* PointUtil.m in Sources */,
+				CA1B18701A63BC0D0083A554 /* GameScene.m in Sources */,
 				CA8304481A61238800B1A553 /* AppDelegate.m in Sources */,
 				CA8304451A61238800B1A553 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CA8304541A61238800B1A553 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		CA83045A1A61238800B1A553 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CA83043E1A61238800B1A553 /* SMBR */;
-			targetProxy = CA8304591A61238800B1A553 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		CA83044C1A61238800B1A553 /* Main.storyboard */ = {
+		CA8F1A621A63C45E000590F2 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CA83044D1A61238800B1A553 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CA8304511A61238800B1A553 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CA8304521A61238800B1A553 /* Base */,
+				CA8F1A631A63C45E000590F2 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		CA8F1A641A63C45E000590F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA8F1A651A63C45E000590F2 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -371,7 +367,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SMBR/Info.plist;
+				GCC_PREFIX_HEADER = SMBR/SMBR.pch;
+				INFOPLIST_FILE = ./Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -381,43 +378,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SMBR/Info.plist;
+				GCC_PREFIX_HEADER = SMBR/SMBR.pch;
+				INFOPLIST_FILE = ./Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		CA8304661A61238800B1A553 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SMBRTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SMBR.app/SMBR";
-			};
-			name = Debug;
-		};
-		CA8304671A61238800B1A553 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SMBRTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SMBR.app/SMBR";
 			};
 			name = Release;
 		};
@@ -438,15 +402,6 @@
 			buildConfigurations = (
 				CA8304631A61238800B1A553 /* Debug */,
 				CA8304641A61238800B1A553 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CA8304651A61238800B1A553 /* Build configuration list for PBXNativeTarget "SMBRTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CA8304661A61238800B1A553 /* Debug */,
-				CA8304671A61238800B1A553 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
